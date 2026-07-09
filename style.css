@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zerodha Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<table width="100%">
+    <tr>
+        <td>
+            <img src="https://zerodha.com/static/images/logo.svg" alt="Logo" width="180">
+        </td>
+
+        <td align="right">
+            <a href="https://www.google.com/">Signup</a>&nbsp;&nbsp;
+            <a href="https://www.google.com/">About</a>&nbsp;&nbsp;
+            <a href="https://www.google.com/">Products</a>&nbsp;&nbsp;
+            <a href="https://www.google.com/">Pricing</a>&nbsp;&nbsp;
+            <a href="https://www.google.com/">Support</a>
+        </td>
+    </tr>
+</table>
+
+<hr>
+
+<div class="hero">
+
+    <center>
+        <img src="https://zerodha.com/static/images/landing.png" alt="Landing">
+
+        <h1>Invest in everything</h1>
+
+        <p>
+            Online platform to invest in stocks, mutual funds, ETFs, bonds and more.
+        </p>
+
+        <button>Sign up for free</button>
+    </center>
+
+    <br><br>
+
+    <script src="script.js"></script>
+
+    <div style="text-align:left; margin-left:100px;">
+
+        <h1>Forms</h1>
+
+        <form>
+
+            <label for="name">Name:</label>
+            <input type="text">
+            <br><br>
+
+            <label for="number">Number:</label>
+            <input type="number">
+            <br><br>
+
+            <label for="message">Message:</label>
+            <textarea>Message</textarea>
+            <br><br>
+
+            <select>
+                <option>Option1</option>
+                <option>Option2</option>
+            </select>
+
+        </form>
+
+        <br><br>
+
+        <table border="1">
+            <tr>
+                <th>Company</th>
+                <th>Name</th>
+            </tr>
+
+            <tr>
+                <td>Infosys</td>
+                <td>John Doe</td>
+            </tr>
+
+            <tr>
+                <td>Microsoft</td>
+                <td>Pavan</td>
+            </tr>
+
+            <tr>
+                <td>Cognizant</td>
+                <td>Abhishek</td>
+            </tr>
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
